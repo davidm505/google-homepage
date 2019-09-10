@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/c6a79796b8.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" />
     <title>Google</title>
 </head>
 <body>
@@ -14,8 +16,8 @@
             <a href="#" class="left-item">Store</a>
             <a href="#" class="nav-right right-item">Gmail</a>
             <a href="#" class="right-item">Images</a>
-            <a href="#" class="right-item">Profile</a>
-            <a href="#" class="right-item">Apps</a>
+            <a href="#" class="right-item"><i class="fab fa-app-store fa-2x"></i></a>
+            <a href="#" class="right-item"><i class="far fa-user-circle fa-2x"></i></a>
         </nav>
     </header>
     <main>
@@ -23,9 +25,9 @@
             <img id="g-logo" src="images/google_PNG19644.webp" alt="Google Logo">
         </figure>
         <form action="https://www.google.com/search" method="GET">
-            <input type="text" autofocus name="q"> <br>
-            <input type="submit" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky">
+            <input type="text" autofocus name="q" id="search-bar"> <br>
+            <input type="submit" value="Google Search" class="buttons">
+            <input type="button" value="I'm Feeling Lucky" class="buttons">
         </form>
     </main>
     <footer>
@@ -35,7 +37,7 @@
             <a href="#" class="left-item">How Search Works</a>
             <a href="#" class="nav-right right-item">Privacy</a>
             <a href="#" class="right-item">Terms</a>
-            <a href="#" class="right-item">Settings</a>
+            <a href="#" class="right-item last-item">Settings</a>
         </nav>
     </footer>
 </body>
